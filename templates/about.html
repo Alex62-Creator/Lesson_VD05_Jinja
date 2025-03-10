@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    О компании
+{% endblock %}
+
+{% block content %}
+    <h1 align="center">О нас</h1>
+    <p>Наша компания более 10-ти лет на рынке автоматизации бизнеса. Более 100 компаний применяют наши решения в повседневной деятельности. Мы одни из первых на постсоветском пространстве начали внедрять искусственный интеллект в бизнес процессы...</p>
+    <!--Карточки-->
+    <div class="row" id="card">
+        <div class="col-lg-4 col-sm-12 mb-3 mb-sm-0">
+            <div class="card">
+                <img src="../static/image/deepseek.jpeg" height=350px class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deepseek</h5>
+                    <p class="card-text">Deepseek R1 - нашумевшая ИИ модель от китайской компании Deepseek AI. За основу взята модель Deepseek v3, возможности которой схожи с ChatGPT. Однако благодаря открытому исходному коду китайской нейросети у нее есть ряд интересных преимуществ.</p>
+                    <a href="https://chat.deepseek.com/" class="btn btn-primary">Попробовать Deepseek</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="card">
+                <img src="../static/image/qwen.webp" height=350px class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Qwen 2.5</h5>
+                    <p class="card-text">Китайская компания Alibaba выпустила новую версию своей модели искусственного интеллекта Qwen 2.5-Max, которая, по словам представителей компании, превзошла высоко оцененную модель DeepSeek-V3. Изначально это не только функциональный чат-бот, но и генератор фото и видео.</p>
+                    <a href="https://chat.qwenlm.ai/auth" class="btn btn-primary">Попробовать Qwen 2.5</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="card">
+                <img src="../static/image/hailuo.jpg" height=350px class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hailuo AI</h5>
+                    <p class="card-text">Hailuo AI — модель для генерации видео от китайской компании MiniMax. Нейросеть стала популярна благодаря простому интерфейсу и большому количеству бесплатных попыток. Видео выглядят динамично, в них нет эффекта замедленной съемки, как у многих других сервисов.</p>
+                    <a href="https://hailuoai.video/" class="btn btn-primary">Попробовать Hailuo AI</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
